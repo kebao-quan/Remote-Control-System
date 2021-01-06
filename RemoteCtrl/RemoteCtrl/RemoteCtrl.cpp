@@ -8,10 +8,10 @@
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
-int a;
+
 
 // 唯一的应用程序对象
-
+// Branch local_branch
 CWinApp theApp;
 
 using namespace std;
