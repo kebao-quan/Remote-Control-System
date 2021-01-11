@@ -12,7 +12,7 @@
 
 
 // 唯一的应用程序对象
-// Branch first_branch
+// Branch Master Branch
 CWinApp theApp;
 
 using namespace std;
