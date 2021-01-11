@@ -38,7 +38,7 @@ public:
 		sockaddr_in client_adr;
 		int cli_sz = sizeof(client_adr);
 		m_client = accept(m_sock, (sockaddr*)&client_adr, &cli_sz);
-		if (m_client == -1) return false;
+		if (m_client == INVALID_SOCKET) return false;
 		return true;
 	}
 	int DealCommand()
